@@ -118,30 +118,3 @@ footer {
         position: relative;
     }
 }
-
-@media screen and (max-width:769px) {
-    img{
-        width: 100%;
-    }
-
-    .divs {
-        width: 82%;
-        display: block;
-        padding: 10px 40px;
-    }
-
-    .desarrollo {
-        width: 100%;
-        height: 70%;
-    }
-
-    .creacion {
-        top: 0;
-        width: 100%;
-        height: 70%;
-    }
-
-    footer {
-        position: relative;
-    }
-} 
