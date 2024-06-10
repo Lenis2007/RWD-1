@@ -71,12 +71,36 @@ footer {
     }
 
     img{
-        width: 200px;
+        width: 100%;
     }
 
     .divs {
         display: block;
         width: 70%;
+        padding: 10px 40px;
+    }
+
+    .desarrollo {
+        width: 90%;
+    }
+
+    .creacion {
+        top: 0;
+        width: 90%;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width:481px) {
+    img{
+        width: 100%;
+    }
+
+    .divs {
+        display: block;
         padding: 10px 40px;
     }
 
